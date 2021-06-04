@@ -1,0 +1,51 @@
+https://github.com/SALMANcool/AutomationMayBatch.git
+
+TODAY 's topic-Inheritance and polymorphism.
+
+
+class withdraw -parent class
+
+int account number-123456789- 4 bytes
+
+
+
+
+
+class pinchange - child class
+
+
+
+
+class deposit 
+
+int account number-123456789 - 4 bytes
+
+
+class pinchange extends  withdraw
+
+
+Types of inheritance
+
+
+1)simple/single inheritance
+
+class pinchange extends withdraw
+
+2)Multi level inheritance
+
+class pinchange extends withdraw
+class deposit extends pinchange
+
+3)Multiple Inheritance
+
+class deposit extends withdraw,pinchange
+
+
+4)Hirachical-
+
+
+class pinchange extends withdraw
+class withdraw extends pinchange
+class deposit extends pinchange
+class pinchange extends deposit
+etc..

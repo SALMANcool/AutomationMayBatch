@@ -1,0 +1,76 @@
+Constructors 
+Types of constructors
+This keywords
+Super keywords
+
+Object creation
+
+classname objectname=new constructor();
+
+rules
+
+1)Constructor name should be in the form of class name
+2)constructor doesnt have return type
+3)constructor should not be static
+4)constructor will not go for inheritance 
+5)constructors will not go for overridden
+6)constructor should not  be private
+
+types of constructor
+1)default constructor
+2)parameterized constructor
+
+
+constructor overloading 
+1)No of parameters
+2)order of parameters
+3)Type of parameters
+
+1)No of parameters
+
+class sample
+{
+ sample(int i){//one variable
+print(i);
+}
+
+ sample(float i,int j)//two variables
+{
+}
+
+2)order of parameters
+class sample
+{
+ sample(int i,float j){//no of parameters are same but order is varying
+print(i);
+}
+
+ sample(float k,int j)
+{
+}
+
+main()
+sample samp=new sample();
+samp.m1(10,10.00f);
+samp.m1(10.00f,10);
+
+
+Type of parameters
+
+class sample
+{
+sample(int i,float j){//type of variables changing
+print(i);
+}
+
+sample(boolean k,long  j)
+{
+}
+
+
+
+this and super keywords
+
+this 
+
+super keyword-one parent class one child class

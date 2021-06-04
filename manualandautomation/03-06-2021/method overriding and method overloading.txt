@@ -1,0 +1,72 @@
+Inheritance concepts
+
+method overriding.
+
+polymorphism concepts
+
+
+example
+class A
+{
+
+public void sum(int i,int j)
+{
+-------
+}
+
+public void sum(float i,float j)
+{
+
+------
+}
+
+
+
+MOL with different parameters we have 
+
+1)No of parameters
+2)order of parameters
+3)Type of parameters
+
+1)No of parameters
+
+class sample
+{
+void m1(int i){//one variable
+print(i);
+}
+
+void m1(float i,int j)//two variables
+{
+}
+
+2)order of parameters
+class sample
+{
+void m1(int i,float j){//no of parameters are same but order is varying
+print(i);
+}
+
+void m1(float k,int j)
+{
+}
+
+main()
+sample samp=new sample();
+samp.m1(10,10.00f);
+samp.m1(10.00f,10);
+
+
+Type of parameters
+
+class sample
+{
+void m1(int i,float j){//type of variables changing
+print(i);
+}
+
+void m1(boolean k,long  j)
+{
+}
+
+

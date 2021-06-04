@@ -1,0 +1,112 @@
+OOPS(objected oriented programming language)
+
+class
+object 
+polymorphism
+encapsulation
+message passing
+dynamic binding
+Abstraction
+interfaces
+
+Class-class is combination of variables and methods
+
+syntax-
+
+Class <className>
+//variable declaration;
+<methods > declaration;
+
+variable declaration;
+3 types 
+primitive data types,derived data type,userdefined datatype
+
+primitive datatype-int,float,boolean etc 
+int i=10; //correctly declared
+
+int i=10,20 //incorrect format
+
+derived datatype
+
+int i[3]={10,20,30} ; //correct derived datatype
+
+incorrect 
+
+int[3]=("Salman",10,20}
+
+user defined datatype
+
+int i=10;
+int j=20;
+int sum=i+j;
+
+
+method declaration-
+
+public void m1()
+{
+
+int i=10;
+int j=20;
+int sum=i+j;
+}
+
+
+public int m1()
+{
+
+int i=10;
+int j=20;
+int sum=i+j;
+
+return sum;
+
+
+Access specifier
+
+public 
+private 
+protected.
+
+class A{
+
+public int i=10;
+}
+
+class B
+{
+A.i();
+
+}
+
+private
+class A{
+
+private int i=10;
+}
+
+protected 
+same project
+
+package1
+
+class A
+
+protected int i=10;
+
+class c 
+
+package2
+
+class B
+
+
+Object -
+
+class consists of 4 variables and 4 methods
+
+suppose you consider object will create-32 bytes
+
+memory for particular method variables.
+
+<class name> object name=new <className>();
