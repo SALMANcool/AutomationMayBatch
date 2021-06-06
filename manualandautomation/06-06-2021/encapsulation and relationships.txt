@@ -1,0 +1,56 @@
+
+Lopp holes
+
+if you are extending a class - to over come we got relationship concept
+unccessary creation of memory 
+
+
+we have 3 types of relation ship conceps
+1)IS-A relationship --Inheritance concept
+2)Has -A relationship
+3)uses-A relationship
+
+
+Encapsulation 
+
+//gowthami is supposed to buy a vehicle jupiter
+//kishore is supposed to buy a vehicle pulsar
+/praveen is supposed to buy a vehicle call royal enfield
+
+class person{
+
+public praveen()
+{
+//person details
+}
+public gowthami()
+{
+//person details
+}
+
+public kishore()
+{
+//person details
+}
+
+class vehicle {
+
+public jupiter()
+{
+//jupiter features
+}
+public pulsar()
+{
+//pulsar features
+}
+
+public enfield()
+{
+//enfield features
+}
+
+
+public gowthami()
+{
+//person details
+}
