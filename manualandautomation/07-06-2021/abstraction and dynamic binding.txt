@@ -1,0 +1,44 @@
+
+Abstraction concept
+
+abstract class abstractclass
+
+//method has been declared
+public void m1()//implemented methods
+{
+
+}
+
+//abstract methods 
+public abstract  void m2();//unimplemented methods
+
+concrete class
+
+public class concrete extend abstractclass
+{
+
+public void m1()
+{
+}
+
+public void m2()
+{
+print(i am from m2 of concrete class);
+}
+
+Abstract class consists of both implemented and unimplemented methods 
+concrete class consists of only implemented methods
+
+
+Dynamic binding
+
+public abstract class
+
+10 unimplemented methods
+10 implemented methods
+
+public concreteclass
+
+100 methods which are implemented
+
+
