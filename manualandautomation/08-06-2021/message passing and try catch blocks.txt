@@ -1,0 +1,72 @@
+
+
+Message passing concept
+
+it is a process of passing parameters or data from one class to another class in the form of object.
+
+class person
+{
+String name='salman'
+int age =25;
+
+void m1()
+{
+Person p=new Person();
+Vehicle v=new Vehicle();
+v.m1(p);
+}
+}
+
+
+class vehicle
+{
+
+String vehicleName="Hero"
+String engine capacity="125cc"
+int model=2021;
+
+void m1(Person p)
+{
+print(p.name);
+print(p.age)
+print(vehiclename);
+
+
+//Exceptional condition
+
+
+int i=50
+
+int k=0;
+
+
+int div=i/k;(value will be infinity )-Arithmetic exception
+
+public class ExceptionFlow {
+	
+	static int i=10;
+	static int k=0;
+	static int div=i/k;
+	public static void main(String[] args) {
+		
+		System.out.println(div);
+		
+	}
+
+}
+
+
+//statement1-m1
+//statement2-m2
+//statement3 //thrown am error arithmetic exception 
+//statement4//this statement wont be executed when we get an exception
+
+
+
+
+they have created some of the methods
+
+1) try /catch blocks
+
+2)throws and throw keyword
+
