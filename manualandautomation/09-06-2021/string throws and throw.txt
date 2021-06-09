@@ -1,0 +1,25 @@
+
+Todays concept Throws and String concepts
+
+Throws keyword
+
+throws is a keyword which indicates from calling function to called function what exception it has to throw
+
+IO EXCEPTION
+NUMBER FORMAT EXCEPTION
+....ETC
+
+
+String Concept
+
+String is immutable in java
+multiple characters in java
+String is defined as class in java
+
+String s="salman";//literal
+String s1=new String("salman");
+
+heap memory 
+constant pool first 
+
+jvm will check in constant pool first and after that it will check in heap memory
