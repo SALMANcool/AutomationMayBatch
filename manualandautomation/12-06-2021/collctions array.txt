@@ -1,0 +1,61 @@
+Todays class
+
+Array concepts
+Collections 
+
+Array
+
+int i=10;
+int j=20;
+int k=30;
+
+Array a[]={10,20,30};//static way
+
+
+//storing the array in the form of objects
+//declaring an array
+//size of array
+//iteration in the form of index wise
+int a[]=new int[3];
+
+single dimensional array
+int i=10;
+int j=20;
+int k=30;
+int a[]=new int[3];
+multi dimensionalarray
+
+int multidim[][]=new multidim[2][2];
+[100,200]
+[300,400]
+
+Arraylist
+
+we are storing the elements in the form of dynamic array
+duplicate elements will be allowed
+it maintains insertion order
+iteration will be in the form of index wise
+Random access 
+
+Differences between arraylist and linked list
+
+Searching 
+
+Arraylist will be faster compare to linkedlist
+
+Insertion
+
+
+al is slower compare to linked list
+
+Deletions
+
+Al is slow compare to linked list
+
+Memory
+
+Array list occupies less space in memory
+
+execution
+
+al will be faster compare to linkedlist
