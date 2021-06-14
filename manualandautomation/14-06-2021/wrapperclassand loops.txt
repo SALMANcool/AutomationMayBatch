@@ -1,0 +1,17 @@
+Todays topics covered are wrapper classes and loops
+
+
+Wrapper classes=converting from primitive datatype to objects and objects to primitive datatype we call it as wrapper classes
+
+
+Autoboxing
+primitive data types
+int,char,float,byte...
+
+classes
+
+boxing
+Integer
+Character
+Float
+Byte

@@ -1,0 +1,36 @@
+Todays concept Set Types of set,Maps and types of maps,Practical example
+
+Set
+
+set womt all ow duplicates
+
+set<String> set=new Set<String>;
+
+set.add("salman");
+set.add("santosh");
+set.add("salman");
+
+Types of sets are
+
+1)Hashset
+2)LinkedHashSet
+3)TreeSet
+
+
+
+Maps-keys and values-pair
+     key      values
+Map<String ,String> map=new Map<String,String>();
+different types of method
+
+entryset()-we can get the values from the object map
+put(key,value)-it will add object in the maps
+containskey()-it will check particular key is present or not
+containsvalue()-it will check particular values are present
+keyset() -keys wiil be given for the particular object
+
+Types of maps 
+
+Hashmap
+LinkedHashMap
+TreeMap
